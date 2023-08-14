@@ -698,7 +698,7 @@ type FormulaOpts struct {
 //	import (
 //	    "fmt"
 //
-//	    "github.com/xuri/excelize/v2"
+//	    "github.com/florianhidayat/excelize/v2"
 //	)
 //
 //	func main() {
@@ -854,7 +854,7 @@ type HyperlinkOpts struct {
 // the other functions such as `SetCellStyle` or `SetSheetRow`. The below is
 // example for external link.
 //
-//	display, tooltip := "https://github.com/xuri/excelize", "Excelize on GitHub"
+//	display, tooltip := "https://github.com/florianhidayat/excelize", "Excelize on GitHub"
 //	if err := f.SetCellHyperLink("Sheet1", "A3",
 //	    display, "External", excelize.HyperlinkOpts{
 //	        Display: &display,
@@ -1069,7 +1069,7 @@ func setRichText(runs []RichTextRun) ([]xlsxR, error) {
 //	import (
 //	    "fmt"
 //
-//	    "github.com/xuri/excelize/v2"
+//	    "github.com/florianhidayat/excelize/v2"
 //	)
 //
 //	func main() {
